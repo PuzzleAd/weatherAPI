@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #262D46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    padding: 19px 120px 19px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #33394E;
+}
+
+header > h1 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    color: #E8EDFF;;   
+}
+
+header > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+header > ul > li {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: #CDD4EC;
+}
+
+.one-header {
+    margin-top: 36px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.89px;
+    color: #E8EDFF;
+}
+
+#weather-box {
+    width: 400px;
+    margin-top: 102px;
+    padding: 24px 10px 63px 40px;
+    background-color: #0F2836;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#coordinates-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#coordinates-id {
+    display: flex;
+    gap: 15px;
+}
+
+#coordinates-id > img {
+    position: relative;
+    top: -18px;
+}
+
+.latitude-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.latitude-box > p{
+    font-family: Arial;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20.7px;
+    color: white;
+    
+}
+
+#weather-image{
+    margin-top: 60px;
+}
+
+#temperature{
+    font-family: Arial;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 73.59px;
+    color: white;
+}
+
+.wind-container{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#fahrenheit {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.1px;
+    color: white;    
+}
+
+#wind-speed-box{
+    margin-right: 45px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.1px;
+    color: white;
+}
+
+footer {
+    display: flex;
+    gap: 8px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 75px;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    background-color: #33394E;
+    color: white;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;   
+}
